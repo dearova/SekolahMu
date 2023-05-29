@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TestActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="BIG RED"
+        android:textAlignment="center"
+        android:textColor="#E91E63"
+        android:textSize="60dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Tes Aja"
+        android:textAlignment="center"
+        android:textColor="#00FF00"
+        android:textSize="20dp" />
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="tombol"
+        android:textAllCaps="false"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+
+        android:layout_height="87dp"
+        android:text="Simpan"
+        android:textAlignment="center"
+        app:icon="@drawable/ic_launcher_foreground" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="60sp"
+        android:hint="apa ya"
+        android:inputType="phone"
+/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ini aja"
+        android:textSize="50dp"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="itu aja"
+        android:buttonTint="#ff0000"
+        android:textSize="60dp"/>
+    <RadioGroup
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pilih sekolah ku"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pilih sekolah ku"/>
+    </RadioGroup>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dialog"
+        android:entries="@array/jenjang"/>
+   <!-- <ImageView
+        android:src="@drawable/"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+        -->
+</LinearLayout>
